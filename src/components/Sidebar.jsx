@@ -37,7 +37,7 @@ export function Sidebar() {
             ))}
             </div>
             <div  className={classnames(linkclass, 'text-red-700 cursor-pointer text-lg')}>
-            <RiLogoutBoxRLine />
+                <RiLogoutBoxRLine />
                Logout
             </div>
         </div>
