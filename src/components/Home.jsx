@@ -3,13 +3,15 @@ import { Sidebar } from "./Sidebar";
 // import Products from "./Products.jsx";
 // import { Dashboard } from "./Dashboard.jsx";
 
+import { Header } from "./Header";
+
 export function Home(){
 return(
     <>
-    <div className="grid grid-cols-4 h-screen w-screen overflow-hidden">
+    <div className="flex flex-row h-screen w-screen overflow-hidden bg-neutral-100">
         <Sidebar/>
-        <div className="col-span-3 p-3">
-            <div className="bg-cyan-100 card">Header</div>
+        <div className="flex-1 ">
+            <Header/>
             <div>{<Outlet/>}</div>
         </div>
     </div>
