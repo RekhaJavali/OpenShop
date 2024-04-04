@@ -5,7 +5,7 @@ export default function Products(){
     return(
         <>
         Products page
-        <p className="underline"><Link to = "/dashboard">Go to Dashboard</Link></p>
+        <p className="underline"><Link to = "/">Go to Dashboard</Link></p>
         </>
 
     )
