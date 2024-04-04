@@ -18,7 +18,7 @@ export function Sidebar() {
             
                 <div className="flex items-center  gap-2 p-4 "> 
                     <FcBullish  size={24}/> 
-                    <span className=" text-lg tracking-wide text-neutral-100">OpenShop</span>
+                    <span className=" text-lg tracking-wide text-neutral-100" >OpenShop</span>
                 </div>
                 <div className="flex-1 flex flex-col  gap-0.5 pt-4 ">
                     {DASHBOARD_SIDEBAR_LINKS.map((item)=>(
