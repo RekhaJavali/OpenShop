@@ -17,7 +17,7 @@ export const DASHBOARD_SIDEBAR_LINKS = [
     {
         key: "dashboard",
         name: "Dashboard",
-        path: "/dashboard",
+        path: "/",
         icon : <HiOutlineViewGrid/>
     },
     {
