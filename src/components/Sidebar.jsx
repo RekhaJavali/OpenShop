@@ -14,7 +14,7 @@ const linkclass = "flex gap-4 items-center font-light px-4 py-2 hover:bg-neutral
 export function Sidebar() {
     return (
         <>
-        <div className=" flex flex-col p-3  bg-neutral-900 text-white ">
+        <div className=" flex flex-col p-3  bg-neutral-900 text-white  ">
             
                 <div className="flex items-center  gap-2 p-4 "> 
                     <FcBullish  size={24}/> 
