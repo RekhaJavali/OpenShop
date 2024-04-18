@@ -20,7 +20,8 @@ export function Header(){
             <div className="flex items-center gap-2 mr-2">
             <HiOutlineChatAlt  fontSize={20} className="hover:text-gray-600 "/>
             <HiOutlineBell fontSize={20} className="hover:text-gray-600"/>
-                <img src="../../src/assets/profile.jpg" alt="profilepic"  className="rounded-lg w-6 h-6 object-fill hover:opacity-50"/>
+                {/* <img src="../../src/assets/profile.jpg" alt="profilepic"  className="rounded-lg w-6 h-6 object-fill hover:opacity-50"/> */}
+                <img src= "https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg" alt="profpic" className="rounded-xl w-6 h-6 object-fill hover:opacity-50"/>
 
             </div>
         </div>
