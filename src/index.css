@@ -11,6 +11,24 @@ html{
 }
 
 .card {
-  @apply font-bold text-indigo-300 underline  
+  @apply font-bold text-indigo-300 underline  ;
 }
+
+table{
+
+}
+th, td{
+  @apply py-3  text-left text-sm border-y border-gray-100;
+}
+thead{
+  @apply bg-neutral-100 ;
+}
+th{
+    @apply font-semibold  ;
+
+}
+tr{
+  @apply hover:bg-gray-100;
+}
+
 }
