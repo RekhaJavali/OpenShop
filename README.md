@@ -5,4 +5,5 @@
 - used google fonts
 - used custom styles @layer in index.css
 - used recharts for charts
+- used react-icons
  
