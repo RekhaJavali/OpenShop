@@ -35,12 +35,14 @@ export const DASHBOARD_SIDEBAR_LINKS = [
     {
         key: "customers",
         name: "Customers",
+        // path: "/customers",
         path: "/customers",
         icon : <HiOutlineUserGroup />
     },
     {
         key: "transactions",
         name: "Transactions",
+        // path: "/transactions",
         path: "/transactions",
         icon : <HiOutlineDocumentText />
     },
