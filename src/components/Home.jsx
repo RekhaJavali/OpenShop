@@ -8,10 +8,11 @@ import { Header } from "./Header";
 export function Home(){
 return(
     <>
-    <div className="flex flex-row h-screen w-screen overflow-hidden bg-neutral-100">
-        <Sidebar/>
+    <div className="flex flex-row h-full w-screen md:w-full bg-neutral-100">
+        {/* changed from h-screen to h-full and w-screen to w-full */}
+        <Sidebar className="fixed top-0 left-0 h-full overflow-hidden" />
         <div className="flex-1 ">
-            <Header/>
+            <Header className= "sticky top-0 left-0 "/>
             <div>{<Outlet/>}</div>
         </div>
     </div>
