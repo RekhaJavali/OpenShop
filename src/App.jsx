@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route,Link} from "react-router-dom";
 import { Dashboard }from "./components/Dashboard.jsx";
 import { Home } from "./components/Home.jsx";
 import Products from "./components/Products.jsx";
-import {Orders } from "./components/Orders.jsx";
+import {Orders} from "./components/Orders.jsx";
 // import {Customers} from "./components/Customers.jsx";
 
 
