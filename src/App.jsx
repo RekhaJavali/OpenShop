@@ -21,7 +21,7 @@ function App() {
           <Route index element = {<Dashboard/>} />
           <Route path="products" element = {<Dashboard/>}/>
           {/* just to avoid error */}
-          <Route path="orders" element = {<Dashboard/>} />
+          <Route path="orders" element = {<Orders/>} />
           <Route path="customers" element = {<Dashboard/>} />
           <Route path="transactions" element = {<Dashboard/>} />
           <Route path="messages" element = {<Dashboard/>} />
