@@ -15,10 +15,10 @@ html{
 }
 
 table{
-
+  
 }
 th, td{
-  @apply py-3  text-left text-sm border-y border-gray-100;
+  @apply p-4  text-left text-sm border-y border-gray-100;
 }
 thead{
   @apply bg-neutral-100 ;
