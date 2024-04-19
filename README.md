@@ -6,4 +6,4 @@
 - used custom styles @layer in index.css
 - used recharts for charts
 - used react-icons
- 
+- mockaroo for dummy json data
