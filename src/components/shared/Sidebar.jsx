@@ -1,5 +1,5 @@
 import { FcBullish } from "react-icons/fc";
-import { DASHBOARD_SIDEBAR_LINKS, DASHBOARD_BOTTOM_LIST } from "../lib/consts/navigation";
+import { DASHBOARD_SIDEBAR_LINKS, DASHBOARD_BOTTOM_LIST } from "../../lib/consts/navigation";
 
 
 import { Link, useLocation } from "react-router-dom";
@@ -37,8 +37,8 @@ export function Sidebar() {
             ))}
             </div>
             <div  className={classnames(linkclass, 'text-red-700 cursor-pointer text-lg')}>
-                <RiLogoutBoxRLine />
-               Logout
+                <RiLogoutBoxRLine  /> Logout
+               {/* <Link to="logout">Logout</Link> */}
             </div>
         </div>
         </>

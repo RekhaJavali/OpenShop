@@ -3,13 +3,13 @@ import { ORDERS } from "../lib/consts/orderTransaction"
 
 export function RecentOrders() {
     return(
-        <div className="bg-white p-4 flex flex-col w-full " >
+        <div className="bg-white p-4 flex flex-col w-full  flex-1" >
             <strong className="font-medium text-gray-700">Transactions | This Month</strong>
-            <div className="mt-4 ">
+            <div className="mt-4  overflow-y-auto">
                 {/* {orders.map((order)=>(
                     <div>{order.orderId}</div>
                 ))} */}
-                <table className="w-full text-gray-700 ">
+                <table className="w-full text-gray-700 overflow-y-auto">
                     <thead>
                         <tr>
                             <th>OrderID</th>
@@ -19,7 +19,7 @@ export function RecentOrders() {
                             <th>OrderAmount</th>
                         </tr>
                     </thead>
-                    <tbody className="overflow-y-scroll">
+                    <tbody className="overflow-y-scroll overflow-y-auto">
                     {ORDERS.map((order)=>(
                     <tr key={order.orderId}>
                         <td>{order.orderId}</td>

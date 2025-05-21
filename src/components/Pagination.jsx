@@ -9,8 +9,6 @@ export function Pagination({postsPerPage, totalPosts, paginate}){
         pageNums.push(i);
     }
 
-    
-
     return(
         <>
             <nav className="flex p-4 bg-white justify-center">
@@ -18,26 +16,8 @@ export function Pagination({postsPerPage, totalPosts, paginate}){
                     {pageNums.map((num)=>(
                         <li key={num} className= {classnames(butn)} onClick={()=>paginate(num)}><a  href="#">{num}</a></li>
                     ))}
-
                 </ul>
             </nav>
-
-
-            {/* <nav className="flex p-auto justify-center">
-                <ul className="flex">
-                    <li className= {classnames(butn)}>&lt;&lt;</li>
-                    <li className= {classnames(butn)}>1</li>
-                    <li className= {classnames(butn)}>2</li>
-                    <li className= {classnames(butn)}>3</li>
-                    <li className= {classnames(butn)}>4</li>
-                    <li className= {classnames(butn)}>5</li>
-                    <li className= {classnames(butn)}>6</li>
-                    <li className= {classnames(butn)}>7</li>
-                    <li className= {classnames(butn)}>&gt;&gt;</li>
-                </ul>
-            </nav> */}
-
         </>
-
     )
 }

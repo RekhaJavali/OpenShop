@@ -67,7 +67,7 @@ const data = [
 
 export function Transaction(){
     return(
-        <div className=" w-{20rem} h-{22rem} bg-white p-4 border border-gray-200 rounded-sm flex flex-1 flex-col "> 
+        <div className="h-[20rem] bg-white p-4 border border-gray-200 rounded-sm flex flex-1 flex-col "> 
         {/*   */}
             <strong className="font-medium text-gray-700">Transactions</strong>
             <div className="w-full mt-3 flex-1 text-xs mt-4 h-{100}">

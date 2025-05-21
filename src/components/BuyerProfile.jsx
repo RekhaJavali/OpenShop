@@ -27,7 +27,7 @@ const data = [
 export function BuyerProfile(){
     return(
         <>
-        <div className="w-{20rem} h-{22rem} bg-white  border border-gray-200 rounded-sm flex  flex-col "> 
+        <div className="w-[20rem] h-[20rem] bg-white   p-4 border border-gray-200 rounded-sm flex  flex-col "> 
         {/* w-{500px} h-{500px}  */}
             <strong className="font-medium text-gray-700">Buyer Profile</strong>
             <div className="w-full mt-3 flex-1 text-xs ">

@@ -1,4 +1,4 @@
-export function OrdersPagination({posts}){
+export function CustomerTable({posts}){
     
     return(
         <>
@@ -8,24 +8,25 @@ export function OrdersPagination({posts}){
         <table className="w-full text-gray-700 ">
             <thead >
                 <tr>
-                    <th>OrderId</th>
-                    <th>Item Name</th>
-                    <th>Customer Name</th>
+                    <th>Name</th>
                     <th>Email</th>
+                    <th>Username</th>
+                    <th>Phone</th>
                     <th>Place</th>
-                    <th>Placed On</th>
+                    <th>ZipCode</th>
                 </tr>
 
             </thead>
             <tbody>
             {posts.map((post)=>(
-                <tr key = {post.Id}>
-                    <td >{post.Id}</td>
-                    <td >{post.Itemname}</td>
-                    <td >{post.Customer}</td>
-                    <td >{post.Email}</td>
-                    <td >{post.Place}</td>
-                    <td >{post.OrderDate}</td>
+                <tr key = {post.id}>
+                    <td >{post.name}</td>
+                    <td >{post.email}</td>
+                    <td >{post.username}</td>
+                    <td >{post.phone}</td>
+                    <td >{`${post.address.city}, ${post.address.street}, `}</td>
+                    <td >{post.address.zipcode}</td>
+                    {/* <td >{post.OrderDate}</td> */}
             </tr>
             ))}
             </tbody>

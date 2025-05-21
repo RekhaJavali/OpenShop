@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 
-import { Pagination } from "./Pagination";
-import { OrdersPagination } from "./OrdersPagination";
+import { Pagination } from "../components/Pagination";
+import { OrdersPagination } from "../components/OrdersPagination";
 // import { ORDERS } from "../lib/consts/orderTransaction" ;
 import {ORDER_ITEMS} from "../lib/consts/mockData";
 
@@ -32,13 +32,9 @@ export  function Orders(){
         setCurrentPage(pageNum);
     }
 
-    
-
     return(
         <>
-       
         <OrdersPagination posts = {curentPosts} />
-
         <Pagination  postsPerPage = {postPerPage} totalPosts = {posts.length} paginate={handlePaginate}/>
         </>
 

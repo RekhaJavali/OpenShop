@@ -1,10 +1,17 @@
 import React from "react";
 import {BrowserRouter, Routes, Route,Link} from "react-router-dom";
 
-import { Dashboard }from "./components/Dashboard.jsx";
+import { Dashboard }from "./pages/Dashboard.jsx";
 import { Home } from "./components/Home.jsx";
-import Products from "./components/Products.jsx";
-import {Orders} from "./components/Orders.jsx";
+import Products from "./pages/Products.jsx";
+import {Orders} from "./pages/Orders.jsx";
+import Customers from "./pages/Customers.jsx";
+import SettingsComponent from "./pages/Settings.jsx";
+import HelpAndSupport from "./pages/HelpAndSupport.jsx";
+import MessagesComponent from "./pages/MessagesComponent.jsx";
+import { Transaction } from "./components/Transaction.jsx";
+import { RecentOrders } from "./components/RecentOrders.jsx";
+import LogoutButton from "./components/LogoutButton.jsx";
 // import {Customers} from "./components/Customers.jsx";
 
 
@@ -19,14 +26,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}>
           <Route index element = {<Dashboard/>} />
-          <Route path="products" element = {<Dashboard/>}/>
+          <Route path="products" element = {<Products/>}/>
           {/* just to avoid error */}
           <Route path="orders" element = {<Orders/>} />
-          <Route path="customers" element = {<Dashboard/>} />
-          <Route path="transactions" element = {<Dashboard/>} />
-          <Route path="messages" element = {<Dashboard/>} />
-          <Route path="settings" element = {<Dashboard/>} />
-          <Route path="support" element = {<Dashboard/>} />
+          <Route path="customers" element = {<Customers/>} />
+          <Route path="transactions" element = {<RecentOrders/>} />
+          <Route path="messages" element = {<MessagesComponent/>} />
+          <Route path="settings" element = {<SettingsComponent/>} />
+          <Route path="support" element = {<HelpAndSupport/>} />
+          <Route path="logout" element={<LogoutButton/> }/>
         </Route>
       </Routes>
     </BrowserRouter>
