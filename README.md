@@ -7,3 +7,19 @@
 - used recharts for charts
 - used react-icons
 - mockaroo for dummy json data
+
+#### Dashboard
+
+![Dashboard Screenshot](./src/assets/Dashboard.PNG)
+
+#### OrderDetails
+![orders Screenshot](./src/assets/orders.PNG)
+
+### customerDetails
+![customers Screenshot](./src/assets/customers_messages.PNG)
+
+#### Messages
+![Messages Screenshot](./src/assets/msg.PNG)
+
+#### help
+![help Screenshot](./src/assets/help.PNG)
