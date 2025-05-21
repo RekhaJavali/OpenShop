@@ -21,5 +21,8 @@
 #### Messages
 ![Messages Screenshot](./src/assets/msg.PNG)
 
+#### settings
+![settings Screenshot](./src/assets/settings.PNG)
+
 #### help
 ![help Screenshot](./src/assets/help.PNG)

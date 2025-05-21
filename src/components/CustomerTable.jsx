@@ -3,7 +3,7 @@ export function CustomerTable({posts}){
     return(
         <>
          <div className="bg-white p-4 flex flex-col w-full " >
-            <strong className="font-large text-gray-700 p-2">Orders | This Month</strong>
+            <strong className="font-large text-gray-700 p-2">customers</strong>
             <div className="mt-2">
         <table className="w-full text-gray-700 ">
             <thead >
